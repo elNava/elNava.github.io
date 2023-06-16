@@ -206,7 +206,7 @@ header {
 }
 
 // About me
-abtme {
+.abtme {
     position: relative;
     width: 100%;
     min-height: auto;
@@ -215,12 +215,12 @@ abtme {
     background-image: url('../img/me.jpg');
     text-align: center;
     color: white;
-    .header-content {
+    .abtme-content {
         position: relative;
         text-align: center;
         padding: 100px 15px 100px;
         width: 100%;
-        .header-content-inner {
+        .abtme-content-inner {
             h1 {
                 font-weight: 700;
                 text-transform: uppercase;
@@ -240,14 +240,14 @@ abtme {
     }
     @media (min-width: 768px) {
         min-height: 100%;
-        .header-content {
+        .abt-content {
             position: absolute;
             top: 50%;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
             padding: 0 50px;
-            .header-content-inner {
+            .abt-content-inner {
                 max-width: 1000px;
                 margin-left: auto;
                 margin-right: auto;
