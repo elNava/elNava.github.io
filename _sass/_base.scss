@@ -217,8 +217,9 @@ header {
     text-align: center;
     color: white;
     .abtme-content {
-        position: absolute;
         text-align: center;
+        left: 0;
+        right: 0;
         padding: 100px 15px 100px;
         width: 100%;
         .abtme-content-inner {
