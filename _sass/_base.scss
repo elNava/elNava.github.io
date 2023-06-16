@@ -57,9 +57,12 @@ p {
 
 section {
     padding: 100px 0;
-    .img-responsive {
-        max-width: 100%;
-        max-height: 300px;
+    @media (min-width: 992px){
+        .img-responsive {
+            max-width: 100%;
+            max-height: 300px;
+            border-radius: 10px;
+        }
     }
 }
 
