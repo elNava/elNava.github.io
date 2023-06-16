@@ -241,14 +241,14 @@ header {
     }
     @media (min-width: 768px) {
         min-height: 100%;
-        .abt-content {
+        .abtme-content {
             position: absolute;
             top: 50%;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
             padding: 0 50px;
-            .abt-content-inner {
+            .abtme-content-inner {
                 max-width: 1000px;
                 margin-left: auto;
                 margin-right: auto;
