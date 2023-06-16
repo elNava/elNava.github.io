@@ -291,6 +291,19 @@ header {
     }
 }
 
+.pets-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @media (min-width: 992px) {
+        .service-item {
+          align-items: flex-start;
+          justify-content: flex-start;
+        }
+    }
+}
+
 .portfolio-box {
     position: relative;
     display: block;
