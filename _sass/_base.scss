@@ -155,7 +155,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header_sdss.jpeg');
+    background-image: url('../img/carina.jpg');
     text-align: center;
     color: white;
     .header-content {
@@ -279,9 +279,6 @@ header {
 }
 
 .call-to-action {
-    @include background-cover;
-    background-position: center;
-    background-image: url('../img/call_to_action_me.jpg');
     h2 {
         margin: 0 auto 20px;
     }
