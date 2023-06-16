@@ -213,6 +213,8 @@ header {
     @include background-cover;
     background-position: center;
     background-image: url('../img/me.jpg');
+    opacity: 50;
+    transition: opacity 0.5s ease;
     text-align: center;
     color: white;
     .abtme-content {
