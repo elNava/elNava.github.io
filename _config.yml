@@ -1,12 +1,12 @@
 # Site settings
-title:
-email:
+title: Benjamín Navarrete Rivas
+email: bnavarre@das.uchile.cl
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "https://elNava.github.io" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+twitter_username: elNavipta
+github_username: elNava
 
 # Build settings
 markdown: kramdown
