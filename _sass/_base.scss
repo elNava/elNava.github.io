@@ -213,10 +213,9 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/me.jpg');
-    background-color: rgb(0, 0, 0, 0.5);
+    background-image: url('../img/fadedme.jpg');
     text-align: center;
-    //color: black;
+    color: white;
     .abtme-content {
         position: relative;
         text-align: center;
