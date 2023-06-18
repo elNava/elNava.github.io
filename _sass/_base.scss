@@ -299,6 +299,11 @@ header {
     }
 }
 
+.pets-box img {
+    display: inline-block;
+    border-radius: 50%;
+}
+
 .portfolio-box {
     position: relative;
     display: block;
