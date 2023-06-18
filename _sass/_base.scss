@@ -270,12 +270,29 @@ header {
     margin-top: 0;
 }
 
-.pets {
-    .img-responsive {
-        max-width: 300px;
-    }
+.img-responsive {
+    max-width: 100%;
+    max-height: 200px;
 }
 
+@media (min-width: 768px) {
+    .img-responsive {
+      max-width: 100%;
+      max-height: 300px;
+    }
+}
+  
+
+.service-box {
+    max-width: 400px;
+    margin: 50px auto 0;
+    @media (min-width: 992px) {
+        margin: 20px auto 0;
+    }
+    p {
+        margin-bottom: 0;
+    }
+}
 
 .portfolio-box {
     position: relative;
@@ -403,4 +420,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-
