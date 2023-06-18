@@ -270,6 +270,12 @@ header {
     margin-top: 0;
 }
 
+.pets {
+    .img-responsive {
+        max-width: 300px;
+    }
+}
+
 
 .portfolio-box {
     position: relative;
