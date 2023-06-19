@@ -323,24 +323,25 @@ header {
     }
 }
 
-// Sections
-
-.section-heading {
-    margin-top: 0;
-}
-
+// Publications style.
 .papers ol{
     display: block;
-    font-size: 20;
 }
 .papers li{
     text-align: left;
+    font-size: 20px;
 }
 .papers a{
     text-decoration: none;
     background-color: transparent;
     color: rgb(48, 149, 212);
     font-size: 20px;
+}
+
+// Sections
+
+.section-heading {
+    margin-top: 0;
 }
 
 .img-responsive {
