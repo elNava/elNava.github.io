@@ -397,6 +397,66 @@ header {
     }
 }
 
+.outreach-box {
+    position: relative;
+    display: block;
+    max-width: 650px;
+    margin: 0 auto;
+    .outreach-box-caption {
+        color: white;
+        opacity: 0;
+        display: block;
+        background: rgba( $theme-primary, .9 );
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        @include transition-all;
+        .outreach-box-caption-content {
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            .project-category,
+            .project-name {
+                @include sans-serif-font;
+                padding: 0 15px;
+            }
+            .project-category {
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 14px;
+            }
+            .project-name {
+                font-size: 18px;
+            }
+        }
+    }
+    &:hover {
+        .outreach-box-caption {
+            opacity: 1;
+        }
+    }
+    @media (min-width: 768px) {
+        .outreach-box-caption {
+            .outreach-box-caption-content {
+                .project-category {
+                    font-size: 16px;
+                }
+                .project-name {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}
+.outreach-box p{
+    font-weight: 600;
+    font-size: 13px;
+}
+
 // Sections
 
 .section-heading {

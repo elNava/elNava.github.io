@@ -1,0 +1,19 @@
+<div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box">
+                    <img src="img/portfolio/1.jpg" class="port-img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Mar 13-16th, 2023
+                            </div>
+                            <div class="project-name">
+                                XVIII SOCHIAS Annual Meeting
+                            </div>
+                            <p>
+                                Poster presentation on local analogs of high-z galaxies at the Frontier University
+                                (UFRO, Temuco, Chile).
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
