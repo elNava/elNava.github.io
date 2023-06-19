@@ -349,7 +349,7 @@ header {
         height: 100%;
         @include transition-all;
         .rsrch-img-responsive{
-            width: 100%;
+            max-width: 100%;
             height: auto;
         }
         .research-box-caption-content {
