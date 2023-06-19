@@ -327,6 +327,10 @@ header {
     display: block;
     max-width: 650px;
     margin: 0 auto;
+    .p {
+        font-weight: 600;
+        font-size: 13px;
+    }
     .research-box-caption {
         color: white;
         opacity: 0;
@@ -377,10 +381,7 @@ header {
         }
     }
 }
-.research-box p{
-    font-weight: 600;
-    font-size: 13px;
-}
+
 
 // Publications style.
 .papers ol{
@@ -468,6 +469,10 @@ header {
     display: block;
     max-width: 650px;
     margin: 0 auto;
+    .p {
+        font-weight: 600;
+        font-size: 13px;
+    }
     .outreach-box-caption {
         color: white;
         opacity: 0;
@@ -518,10 +523,7 @@ header {
         }
     }
 }
-.outreach-box p{
-    font-weight: 600;
-    font-size: 13px;
-}
+
 
 // Teaching
 
