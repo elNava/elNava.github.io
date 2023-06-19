@@ -238,6 +238,11 @@ header {
                 font-size: 16px;
                 margin-bottom: 50px;
             }
+            a {
+                text-decoration: none;
+                background-color: transparent;
+                color: rgb(48, 149, 212);
+            }
         }
     }
     @media (min-width: 768px) {
