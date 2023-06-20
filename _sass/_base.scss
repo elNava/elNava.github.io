@@ -53,13 +53,7 @@ p {
 
 .text-faded {
     color: rgba(white, .7);
-}
-
-@media (max-width: 992px) {
-    .text-faded{
-        color: rgba(white, .7);
-        font-size: 12px;
-    }
+    font-size: 13px;
 }
 
 section {
