@@ -330,12 +330,13 @@ header {
 .research-box {
     position: relative;
     display: block;
-    max-width: 640px;
+    max-width: 650px;
     margin: 0 auto;
     
     .p {
         color: gray;
         font-size: 13px;
+        max-width: 600px;
     }
     .research-box-caption {
         color: white;
@@ -348,10 +349,6 @@ header {
         width: 100%;
         height: 100%;
         @include transition-all;
-        .rsrch-img-responsive{
-            max-width: 100%;
-            height: auto;
-        }
         .research-box-caption-content {
             width: 100%;
             text-align: center;
