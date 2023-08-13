@@ -335,8 +335,9 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/research/research2.jpg');
-    text-align: center;
+    background-image: url('../img/research/fadedresearch2.jpg');
+    text-align: left;
+    text-justify: auto;
     color: white;
     .rsrch2-content {
         text-align: left;
