@@ -169,7 +169,6 @@ header {
                 font-weight: 700;
                 text-transform: uppercase;
                 margin-top: 0;
-                font-family: 'Segoe UI';
                 margin-bottom: 0;
             }
             hr {
@@ -217,7 +216,7 @@ header {
     @include background-cover;
     background-position: center;
     background-image: url('../img/fadedme.jpg');
-    text-align: center;
+    text-align: left;
     color: white;
     .abtme-content {
         text-align: center;
