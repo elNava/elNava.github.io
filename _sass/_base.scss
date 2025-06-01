@@ -196,7 +196,7 @@ header {
                 margin-left: auto;
                 margin-right: auto;
                 p {
-                    max-width: 80%;
+                    max-width: 00%;
                     margin-left: auto;
                     margin-right: auto;
                     font-size: 30px;
@@ -216,7 +216,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: top;
-    background-image: url('../img/aboutme.jpg');
+    background-image: url('../img/aboutme.png');
     text-align: left;
     //color: white;
     .abtme-content {
@@ -235,14 +235,17 @@ header {
             h2{
                 font-size: 50px;
                 text-align: left;
+                margin-left: 30px;
             }
             hr {
                 margin: 30px;
+                width: 800px;
             }
             p {
                 font-weight: 500;
                 color: rgba(255, 255, 255, 0.7);
                 margin-bottom: 50px;
+                margin-left: 30px;
                 font-family: 'OPEN SANS';
                 font-size: 20px;
             }
@@ -254,10 +257,10 @@ header {
         }
     }
     @media (min-width: 768px) {
-        min-height: 100%;
+        min-height: 200%;
         .abtme-content {
             position: absolute;
-            top: 50%;
+            top: 30%;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
