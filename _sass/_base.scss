@@ -215,7 +215,7 @@ header {
     width: 100%;
     min-height: auto;
     @include background-cover;
-    background-position: auto;
+    background-position: top;
     background-image: url('../img/aboutme.jpg');
     text-align: left;
     //color: white;
