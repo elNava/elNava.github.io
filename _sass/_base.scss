@@ -215,10 +215,10 @@ header {
     width: 100%;
     min-height: auto;
     @include background-cover;
-    background-position: center;
+    background-position: auto;
     background-image: url('../img/aboutme.jpg');
     text-align: left;
-    color: white;
+    //color: white;
     .abtme-content {
         text-align: left;
         left: 0;
