@@ -218,7 +218,7 @@ header {
     text-align: left;
     color: white;
     .abtme-content {
-        text-align: left justify;
+        text-align: left;
         left: 0;
         right: 0;
         padding: 100px 15px 100px;
@@ -231,16 +231,18 @@ header {
                 margin-bottom: 0;
             }
             h2{
-                text-align: left justify;
+                font-size: 50px;
+                text-align: left;
             }
             hr {
-                margin: 30px auto;
+                margin: 30px;
             }
             p {
-                font-weight: 300;
+                font-weight: 500;
                 color: rgba(white, .7);
                 margin-bottom: 50px;
-                font-family: 'Segoe UI';
+                font-size: 20px;
+                font-family: 'Open Sans';
             }
             a {
                 text-decoration: none;
