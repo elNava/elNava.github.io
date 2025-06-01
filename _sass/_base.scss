@@ -241,10 +241,10 @@ header {
             }
             p {
                 font-weight: 500;
-                color: rgba(white, .7);
+                color: rgba(255, 255, 255, 0.7);
                 margin-bottom: 50px;
+                font-family: 'OPEN SANS';
                 font-size: 20px;
-                font-family: 'Open Sans';
             }
             a {
                 text-decoration: none;
@@ -264,12 +264,9 @@ header {
             padding: 0 50px;
             .abtme-content-inner {
                 max-width: 1000px;
-                margin-left: auto;
+                margin-left: 0;
                 margin-right: auto;
                 p {
-                    font-size: 20px;
-                    font-weight: 500;
-                    font-family: 'Open Sans';
                     max-width: 80%;
                     margin-left: 0;
                     margin-right: auto;
