@@ -1037,69 +1037,7 @@ header {
 
 // About me
 
-.abtme {
-    position: relative;
-    width: 100%;
-    min-height: auto;
-    @include background-cover;
-    background-position: center;
-    background-image: url('../img/fadedme.jpg');
-    text-align: left;
-    color: white;
-    .abtme-content {
-        text-align: left justify;
-        left: 0;
-        right: 0;
-        padding: 100px 15px 100px;
-        width: 100%;
-        .abtme-content-inner {
-            h1 {
-                font-weight: 700;
-                text-transform: uppercase;
-                margin-top: 0;
-                margin-bottom: 0;
-            }
-            h2{
-                text-align: left justify;
-            }
-            hr {
-                margin: 30px auto;
-            }
-            p {
-                font-weight: 300;
-                color: rgba(white, .7);
-                margin-bottom: 50px;
-                font-family: 'Segoe UI';
-            }
-            a {
-                text-decoration: none;
-                background-color: transparent;
-                color: rgb(48, 149, 212);
-            }
-        }
-    }
-    @media (min-width: 768px) {
-        min-height: 100%;
-        .abtme-content {
-            position: absolute;
-            top: 50%;
-            -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-            padding: 0 50px;
-            .abtme-content-inner {
-                max-width: 1000px;
-                margin-left: auto;
-                margin-right: auto;
-                p {
-                    max-width: 80%;
-                    margin-left: auto;
-                    margin-right: auto;
-                }
-            }
-        }
-    }
-}
+
 
 // Research
 
